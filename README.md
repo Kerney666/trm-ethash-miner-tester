@@ -77,6 +77,9 @@ $ echo 1 >/proc/sys/net/ipv4/ip_forward
 ```
 
 ##### Windows
+
+** UPDATE: THIS SOLUTION DOES NOT WORK. FOR NOW, WHEN TESTING CLAYMORE ON WIN YOU MUST USE A CLOUD VM RUNNING THE TESTER. THE LINUX APPROACH WORKS FINE. **
+
 The goal is to install the legacy Microsoft Loopback adapter and assign it the public IP 99.99.99.99. With this approach, you _must_ run the miner(s) and tester on the same machine:
 
  1. Open Device Manager. Select your computer's name and click the "Action" menu item. Select "Add legacy hardware".
@@ -184,7 +187,10 @@ Per our recommendations, a 6 or 8 gpu rig is necessary for testing Phoenix to av
 Phoenix Miner runs the dev fee mining on a separate connection. This means that the global hash rate diff always should converge to -0.65%, i.e. their listed dev fee, as long as you avoid DAG rebuilds during dev fee switches. You will be able to see the dev fee switches in the miner test logs, search for lines containing "dev fee" in the tester log.
 
 ### Testing Claymore
-Claymore **must** have the network set up with a public IP address mapped back to your local workstation, or you need to run the tester on a real public IP. See the "Hosting" section above. Claymore can handle more shares/sec than Phoenix without distorting results, we use 1.5 x NrGPUs here.
+
+** UPDATE: THE NETWORK HACK DOES NOT WORK ON WIN. FOR NOW, WHEN TESTING CLAYMORE ON WIN YOU MUST USE A CLOUD VM RUNNING THE TESTER. THE LINUX APPROACH WORKS FINE. **
+
+Claymore **must** have the network set up with a public IP address mapped back to your local workstation on Linux. On Windows, you need to run the tester on a real public IP, preferably a cloud VM. See the "Hosting" section above. Claymore can handle more shares/sec than Phoenix without distorting results, we use 1.5 x NrGPUs here.
 
 Note that Claymore needs a proper Ethereum wallet address to mine at the same "pool" and hence avoid DAG rebuilds during dev fee switches. The wallet below is a generated wallet with unknown private key.
 
