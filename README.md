@@ -241,6 +241,7 @@ Phoenix exhibited more crashes for us than the other miners, and we also tested 
 | Miner |  Rig, Source | Hashrate (reported) | Hashrate (produced) |Shares, Runtime (secs)  | Expected | Result | Tester 99% interval | 99% deviation interval |
 |--------|-------|--:|--:|-----:|---------:|------------:|--------:|--:|
 |Ethminer 0.19a| 8x588, Linux (TRM devs) | 230.99 MH/s| 230.97 MH/s | 908,252, 85023s | 0.00% | -0.01% | [-0.35%, +0.33%] |  [-0.35%, +0.33%] | 
+|Ethminer 0.19a| 8x478, Linux (TRM devs) | 256.78 MH/s| 256.59 MH/s | 1,483,228, 150295s | 0.00% | -0.08% | [-0.34%, 0.19%] |  [-0.34%, 0.19%] | 
 |TRM 0.6.0| 8x478, Linux (TRM devs) | 260.24 MH/s | 258.19 MH/s | 3,061,749, 61812s |  -0.75% | -0.79% | [-0.97%, -0.60%] | [-0.23%, 0.15%]
 |Claymore 14.7| 8x588, Linux (TRM devs) | 233.43 MH/s | 229.65 MH/s | 937,355, 88356s | 0.00% | -1.62% | [-1.96%, -1.28%] | [-1.96%, -1.28%] | 
 |Claymore 15.0| 8x478, Linux (TRM devs) | 258.83 MH/s | 254.71 MH/s | 683,938, 115559s | 0.00% | -1.59% |  [-1.98%, -1.20%] | [-1.98%, -1.20%]
