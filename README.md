@@ -248,6 +248,7 @@ Phoenix exhibited more crashes for us than the other miners, and we also tested 
 |Phoenix 4.7c| 8x578, Linux (TRM devs) | 268.69 MH/s | 260.96 MH/s | 502,342, 82823s | -0.65% | -2.88% | [-3.34%, -2.42%] | [-2.69%, -1.77%]
 |Phoenix 4.7c| 8x588, Linux (TRM devs) | 235.43 MH/s | 228.50 MH/s | 247,327, 93572s | -0.65% | -2.95% | [-3.61%, -2.29%] | [-2.96%, -1.64%]
 |Phoenix 4.7c| 4x574, Linux (TRM devs) | 122.82 MH/s | 119.16 MH/s | 212,751, 76995s | -0.65% | -2.98% | [-3.69%, -2.27%] | [-3.04%, -1.62%]
+|Phoenix 4.8c| 8x478, Linux (TRM devs) | 261.89 MH/s | 254.38 MH/s | 1,016,375, 173138s | -0.65% | -2.87% | [-3.18%, -2.55%] | [-2.53%, -1.90%]
 
 ## FAQ
 If necessary, this section will be filled with answers to frequent questions.
