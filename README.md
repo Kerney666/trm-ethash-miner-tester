@@ -54,8 +54,8 @@ In other words, for some specific period of mining we are expected to get λ sha
 |   500,000     | 0.38%  | 0.46%   |
 |   750,000     | 0.31%  | 0.38%   |
 | 1,000,000     | 0.27%  | 0.33%   |
-| 5,000,000     | 0.14%  | 0.12%   |
-| 10,000,000     | 0.10%  | 0.09%   |
+| 5,000,000     | 0.12%  | 0.14%   |
+| 10,000,000     | 0.09%  | 0.10%   |
 
 Looking at the table above, this is what many miners find confusing:  **the only important metric is the number of shares found. How long time it takes to find those shares is irrelevant.**  A 1h mining session with 200 shares is better than a 7 days session with 150 shares. A 1h mining session on 10 rigs is better than 5 rigs. A 1h mining session with lower pool difficulty is better than higher difficulty. In the end, we only need a big set of shares and know how long it took to find them. This is a good thing though. It means that we can scale this problem by lowering the pool difficulty and obtain the same number of shares in a much shorter period of time, and we're still sampling the same underlying miner hash rate.
 
